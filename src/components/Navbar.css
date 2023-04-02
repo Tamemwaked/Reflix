@@ -1,0 +1,30 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-logo {
+  font-size: 30px;
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-text {
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-link:nth-child(2),
+.navbar-link:nth-child(3) {
+  flex-grow: 1;
+  text-align: center;
+}

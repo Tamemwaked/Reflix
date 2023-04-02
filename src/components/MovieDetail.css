@@ -1,0 +1,26 @@
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.movie-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.movie-image {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.movie-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 800px;
+}
